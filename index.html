@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html>
+<head>
 <style>
-input[type=text], select {
-    width: 100%;
+* {
+  border: 2px red dashed
+  
+}
+input[type=text], select {  
+  width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -26,18 +31,23 @@ input[type=submit]:hover {
     background-color: pink;
 }
 
-div {
+#main {
     border-radius: 5px;
     background-color: lightskyblue;
     padding: 20px;
 }
+  
+a:hover {
+  color: aquamarine;  
+}
 </style>
+  
+</head>
 <body>
 
 <h3>不斷尋找海洋的盛夏</h3>
-
-<div>
-  <form action="/action_page.php">
+<div id="main">
+  <form action="http://www.petakids.com/wp-content/uploads/2015/11/Cute-Red-Bunny.jpg">
     <label for="fname"> Traveler</label>
     <input type="text" id="fname" name="Traveler" placeholder="Your name">
 
@@ -53,6 +63,9 @@ div {
   
     <input type="submit" value="Let's Go!">
   </form>
+
+
+
 </div>
 
 </body>
