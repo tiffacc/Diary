@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+
+<style>
+* {
+  box-sizing: border-box;
+  
+}
+.container {
+  max-width: 800px;
+  margin: 1em auto;
+  border: 1px solid cyan;
+  position: relative;
+}
+nav {
+  position: absolute;
+  left: 0px;
+  width: 200px;
+  border: 1px solid purple;
+}
+section {
+  /* position is static by default */
+  margin-left: 200px;
+  border: 1px solid red;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 70px;
+  background-color: greenyellow;
+  width: 100%;
+}
+body {
+  border-color: aqua;
+  margin-bottom: 120px;
+}
+</style>
+
+</head>
+<body>
+<div class="container">
+  <nav>
+    123
+  </nav>
+  <section>section 01</section>
+  <section>section 02</section>
+  <section>section 03</section>
+</div>
+<footer>GOOOOTER</footer>
+</body>
+</html>
